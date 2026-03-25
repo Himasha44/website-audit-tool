@@ -1,7 +1,6 @@
+server/.env
+server/src/.env
 node_modules/
 client/node_modules/
 server/node_modules/
-server/.env
-client/dist/
-server/dist/
-.DS_Store
+dist/
