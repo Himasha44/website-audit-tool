@@ -1,9 +1,8 @@
-export default function MetricCard({ label, value, helper }) {
+export default function InsightCard({ title, text }) {
   return (
-    <div className="card metric-card">
-      <p className="label">{label}</p>
-      <h3>{value}</h3>
-      {helper ? <p className="helper">{helper}</p> : null}
+    <div className="card">
+      <h3>{title}</h3>
+      <p>{text}</p>
     </div>
   );
 }

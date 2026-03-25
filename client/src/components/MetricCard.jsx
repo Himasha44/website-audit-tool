@@ -1,20 +1,9 @@
-export default function PromptLogs({ logs }) {
-  if (!logs) return null;
-
+export default function MetricCard({ label, value, helper }) {
   return (
-    <div className="logs-grid">
-      <div className="card">
-        <h3>System Prompt</h3>
-        <pre>{logs.systemPrompt}</pre>
-      </div>
-      <div className="card">
-        <h3>User Prompt</h3>
-        <pre>{logs.userPrompt}</pre>
-      </div>
-      <div className="card full-width">
-        <h3>Raw Model Output</h3>
-        <pre>{logs.rawModelOutput}</pre>
-      </div>
+    <div className="card metric-card">
+      <p className="label">{label}</p>
+      <h3>{value}</h3>
+      {helper ? <p className="helper">{helper}</p> : null}
     </div>
   );
 }
