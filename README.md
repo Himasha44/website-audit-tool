@@ -2,6 +2,11 @@
 
 A lightweight AI-powered website audit tool built for the **AI-Native Software Engineer – 24 Hour Assignment**. It accepts a single URL, extracts factual webpage metrics, then generates structured AI insights and prioritized recommendations.
 
+## Submission Links
+
+- **GitHub Repository:** https://github.com/Himasha44/website-audit-tool
+- **Deployed Tool:** https://weblens-ai-website-audit.vercel.app/
+
 ## What it does
 
 - Accepts one webpage URL
