@@ -91,7 +91,7 @@ cp .env.example .env
 Edit `.env` and add your OpenAI API key:
 
 ```env
-PORT=4000
+PORT=4001
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_MODEL=gpt-4.1-mini
 ```
