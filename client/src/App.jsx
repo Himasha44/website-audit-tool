@@ -36,10 +36,10 @@ export default function App() {
     <div className="app-shell">
       <header className="hero">
         <div>
-          <p className="eyebrow">AI-Native Software Engineer Assignment</p>
+          <p className="eyebrow"></p>
           <h1>Website Audit Tool</h1>
           <p className="hero-text">
-            Analyze one webpage, separate factual metrics from AI insights, and expose prompt logs.
+            Analyze one webpage, separate factual metrics from AI insights.
           </p>
         </div>
       </header>
